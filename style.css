@@ -1,0 +1,36 @@
+body {
+  font-family:sans-serif;
+  background-color: #FFFFFF;
+  margin: 0px;
+  padding: 0px;
+}
+
+#navbar{
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+  background-color: #ADD8E6;
+}
+
+
+#navbar ul {
+  display: flex;
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#navbar li {
+  float: left;
+  color: #DAA520;
+
+}
+#navbar li a{
+  text-align: center;
+  display: block;
+  color: #fff;
+  font-family: Odibee Sans;
+  padding: 10px 25px;
+  font-size: 10pt;
